@@ -1,8 +1,8 @@
 # YORU 夜
 A personal anime, movie and series tracker. Plain HTML, CSS and JavaScript. No build step, no backend, no API keys.
 
-## Run locally
-Open `index.html` in a browser, or run `python3 -m http.server` in this folder and visit http://localhost:8000.
+## How to Run
+http://yoru-app.s3-website.ap-south-2.amazonaws.com
 
 ## Notes
 - Data lives in your browser's localStorage on one device. It doesn't sync. Use Settings → Export backup regularly.
