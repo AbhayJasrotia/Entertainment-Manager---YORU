@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>YORU</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css"></head>
+<body><div class="shell"><nav id="nav" aria-label="Main"></nav>
+<div class="main"><header class="top">
+<button class="search" data-act="search"><i data-lucide="search"></i><span>Search your library</span><kbd>Ctrl K</kbd></button>
+<button class="ghost" data-act="add" title="Add title" aria-label="Add title"><i data-lucide="plus"></i></button>
+<button class="ghost" data-act="bell" title="Reminders" aria-label="Reminders"><i data-lucide="bell"></i><b id="bc"></b></button>
+<button class="ghost" data-act="settings" title="Settings" aria-label="Settings"><i data-lucide="settings"></i></button>
+</header><main id="view" tabindex="-1"></main></div></div>
+<dialog id="dlg"></dialog><div id="toast" role="status"></div>
+<script src="https://cdn.jsdelivr.net/npm/lucide@0.469.0/dist/umd/lucide.min.js"></script>
+<script src="app.js"></script></body></html>
