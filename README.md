@@ -2,7 +2,7 @@
 A personal anime, movie and series tracker. Plain HTML, CSS and JavaScript. No build step, no backend, no API keys.
 
 ## How to Run
-http://yoru-app.s3-website.ap-south-2.amazonaws.com
+[http://yoru-app.s3-website.ap-south-2.amazonaws.com](http://yoru-app.s3-website.ap-south-2.amazonaws.com/)
 
 ## Notes
 - Data lives in your browser's localStorage on one device. It doesn't sync. Use Settings → Export backup regularly.
